@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <title>Autoservis</title>
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary fixed-top" id="navbar">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <a class="navbar-brand" href="#">Autoservis</a>
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Home</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main style="padding-top: 70px;">
+        <div class="container p-3">
+            <div class="bg-light p-5 mt-3">
+                <h1><em>Autoservis</em></h1>
+                <p class="lead">
+                    Náš autoservis se už desítky let zaměřuje na opravu a kontrolu Vašich vozů.
+                </p>
+            </div>
+        </div>
+
+
+        <div class="list-group container p-3">
+            <a href="img/picture1.jpg" class="list-group-item list-group-item-action">BMW Řada 8 3.0d M SPORT 840d
+                xDrive</a>
+            <a href="img/picture2.jpg" class="list-group-item list-group-item-action">Land Rover Range Rover Velar 3.0D
+                R-Dynamic HSE</a>
+            <a href="img/picture3.jpg" class="list-group-item list-group-item-action">Mercedes-Benz GLS 3.0CDi AMG 400d
+                4Matic</a>
+        </div>
+
+
+        <div id="carouselExampleCaptions" class="carousel slide container p-3" data-bs-ride="false">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/picture1.jpg" class="d-block w-100" alt="picture1">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>BMW Řada 8 3.0d M SPORT 840d xDrive</h5>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/picture2.jpg" class="d-block w-100" alt="picture2">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Land Rover Range Rover Velar 3.0D R-Dynamic HSE</h5>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/picture3.jpg" class="d-block w-100" alt="picture3">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Mercedes-Benz GLS 3.0CDi AMG 400d 4Matic</h5>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+
+        <div class="container p-3">
+            <table class="table table-secondary table-responsive">
+                <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Rok</th>
+                        <th scope="col">Výkon</th>
+                        <th scope="col">Pohon</th>
+                        <th scope="col">Barva</th>
+                    </tr>
+                </thead>
+                <tbody class="table-group-divider">
+                    <tr>
+                        <th scope="row">BMW Řada 8 3.0d M SPORT 840d xDrive</th>
+                        <td>2020</td>
+                        <td>235 kW</td>
+                        <td>4x4</td>
+                        <td>šedá</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Land Rover Range Rover Velar 3.0D R-Dynamic HSE</th>
+                        <td>2020</td>
+                        <td>221 kW</td>
+                        <td>4x4</td>
+                        <td>černá</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Mercedes-Benz GLS 3.0CDi AMG 400d 4Matic</th>
+                        <td>2021</td>
+                        <td>243 kW</td>
+                        <td>4x4</td>
+                        <td>černá metalíza</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <p id="demo"></p>
+        <p id="demo2"></p>
+        <p id="demo3"></p>
+
+        <div class="colors">
+            <button class="btnx" id="0" onclick=printCars()>Zobrazení aut</button>
+            <button class="clearLocalStorage">Clear Local Storage</button>
+            <button class="btnx" id="2" onclick=deleteCar()>Smazání posledně přidaného auta</button>
+        </div>
+
+
+        <div class="container p-3">
+            <div class="text-center">
+                <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                    Info o autech, které jsme již opravili a zkontrolovali.
+                </button>
+            </div>
+
+
+            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Auta</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <h5>BMW Řada 8 3.0d M SPORT 840d xDrive</h5>
+                            <p>Skvělý stav. Vůz po pečlivém majiteli. Kupé v čtyřdveřovém provedení. Líbivá specifikace
+                                - šedý lak, velká kola od divize M a dvě mohutné koncovky výfuku. Motor vhodný pro
+                                dlouhé trasy - výkonný a úsporný naftový šestiválec. Průměrná spotřeba pod 8 litrů,
+                                akcelerace z 0 na 100 km/h za 5 sekund. Jedna z nejlepších automatických převodovek na
+                                trhu a inteligentní pohon všech kol. Bohatá výbava - elektrické víko kufru, LED
+                                světlomety, kožené čalounění, 360stupňů kamera, navigace, volič jízdních režimů,
+                                digitální přístrojový štít, head-up displej a mnoho dalšího.
+
+                                Nejedná se o závaznou nabídku na uzavření smlouvy ve smyslu § 1732 Občanského zákoníku.
+                                Pro zajištění kvality služeb si společnost AutoESA vyhrazuje právo uzavření všech
+                                smluvních vztahů písemně. Jedná se pouze o reklamní inzerci dle zákona o regulaci
+                                reklamy. Inzerce neobsahuje všechny informace a údaje o vozidlech, pro kompletní přehled
+                                technického stavu vozidel, kontaktujte naše zákaznické centrum na bezplatné tel. lince
+                                800 555 555</p>
+
+                            <h5>Land Rover Range Rover Velar 3.0D R-Dynamic HSE</h5>
+                            <p>Skvělý stav - vůz po pečlivém majiteli. Najeto pouze 31 558 kilometrů. Krásná specifikace
+                                - černý lak, LED světlomery, černé doplňky a velká 22 palcová kola. Interiér je
+                                čalouněný hnědou kůží. Oblíbená motorizace - úsporná a výkonná. Bohatá výbava -
+                                nastavitelný podvozek, odvětrávání a vyhřívání elektrických sedadel s masážní funkcí,
+                                navigace, parkovací kamera, panoramatická střecha, elektrické víko kufru, head-up
+                                displej a mnoho dalšího.
+
+                                Nejedná se o závaznou nabídku na uzavření smlouvy ve smyslu § 1732 Občanského zákoníku.
+                                Pro zajištění kvality služeb si společnost AutoESA vyhrazuje právo uzavření všech
+                                smluvních vztahů písemně. Jedná se pouze o reklamní inzerci dle zákona o regulaci
+                                reklamy. Inzerce neobsahuje všechny informace a údaje o vozidlech, pro kompletní přehled
+                                technického stavu vozidel, kontaktujte naše zákaznické centrum na bezplatné tel. lince
+                                800 555 555</p>
+
+                            <h5>Mercedes-Benz GLS 3.0CDi AMG 400d 4Matic</h5>
+                            <p>Zánovní vůz ve stavu nového. Krásná specifikace - černá metalíza, velká lití kola.
+                                Praktické sedmimístné provedení. Spolehlivý a úsporný motor 3.0 CDi ve výkonnější verzi
+                                400d. Pohon všech kol 4Matic a devítistupňová automatická převodovka G-Tronic. Bohatá
+                                výbava - kožené čalounění, navigace, elektrické víko kufru, masážní sedadla, odvětrávání
+                                a vyhřívání sedadel, elektrické ovládání sedadel s pamětí, řazení pádly pod volantem,
+                                panoramatická střecha a mnoho dalšího.
+
+                                Nejedná se o závaznou nabídku na uzavření smlouvy ve smyslu § 1732 Občanského zákoníku.
+                                Pro zajištění kvality služeb si společnost AutoESA vyhrazuje právo uzavření všech
+                                smluvních vztahů písemně. Jedná se pouze o reklamní inzerci dle zákona o regulaci
+                                reklamy. Inzerce neobsahuje všechny informace a údaje o vozidlech, pro kompletní přehled
+                                technického stavu vozidel, kontaktujte naše zákaznické centrum na bezplatné tel. lince
+                                800 555 555</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Zavřít</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="toast-container position-fixed bottom-0 end-0 p-3">
+            <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                <div class="toast-header">
+                    <strong class="me-auto">Autoservis</strong>
+                    <small>just now</small>
+                    <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                </div>
+                <div class="toast-body">
+                    Ahoj, vítám tě na naší hlavní stránce Autoservis.cz
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="page-footer text-white bg-secondary">
+        <div class="footer-copyright text-center py-4">
+            <p class="display-5 mb-3 text-center">Autoservis</p>
+            Copyright © Tomáš Novotný, 2022
+        </div>
+    </footer>
+</body>
+
+<script>
+    const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+    const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+    const toastSelector = document.getElementById('liveToast')
+    const toast = new bootstrap.Toast(toastSelector)
+    toast.show()
+
+    class Auto {
+        constructor(rok, znacka, model, km) {
+            this.rok = rok;
+            this.znacka = znacka;
+            this.model = model;
+            this.km = km;
+        }
+    }
+
+    class Autoservis {
+        constructor(seznamAut, nazev) {
+            this.seznamAut = seznamAut;
+            this.nazev = nazev;
+        }
+    }
+
+    let a1 = new Auto(2020, "BMW", "M SPORT", 100);
+    let a2 = new Auto(2020, "Range Rover", "Velar", 80);
+    let a3 = new Auto(2021, "Mercedes", "GLS", 50);
+
+    const seznam = [];
+
+    let servis = new Autoservis(seznam, "Autoservis Praha");
+
+    servis.seznamAut.push(a1);
+    servis.seznamAut.push(a2);
+    servis.seznamAut.push(a3);
+
+
+    function printCars() {
+        for (let i = 0; i < servis.seznamAut.length; i++) {
+            document.getElementById("demo").innerHTML += "Rok: " + servis.seznamAut[i].rok + ", znacka:  " + servis.seznamAut[i].znacka + ", model: " + servis.seznamAut[i].model + ", km: " + servis.seznamAut[i].km + "<br>";
+        }
+    }
+
+
+    function addCar(rok, znacka, model, km) {
+        let auto = new Auto(rok, znacka, model, km);
+        servis.seznamAut.push(auto);
+    }
+    addCar(2005, "Neco", "Neco", 50);
+
+
+    function deleteCar(id) {
+        servis.seznamAut.remove(id);
+    }
+    deleteCar(1);
+
+    var btn0 = documnet.getElementById("0");
+    var btn1 = documnet.getElementById("1");
+    var btn2 = documnet.getElementById("2");
+
+
+    if (localStorage.getItem("auto") !== null) {
+        let tmp = JSON.parse(localStorage.getItem("auto"));
+        for (let i = 0; i < tmp.length; i++) {
+            seznam.push(tmp[i]);
+        }
+    }
+
+
+    const clearButtonLocalStorage = document.querySelector(".clearLocalStorage");
+    clearButtonLocalStorage.addEventListener("click", () => {
+        localStorage.clear();
+        seznam.length = 0;
+    });
+</script>
+
+</html>

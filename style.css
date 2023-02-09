@@ -1,0 +1,84 @@
+#navbar {
+    background-image: linear-gradient(to right, rgb(121, 121, 121), black);
+}
+
+.page-footer {
+    background-image: linear-gradient(to right, rgb(121, 121, 121), black);
+}
+
+.nav-link {
+    position: relative;
+}
+
+.nav-link::after {
+
+    content: '';
+    opacity: 0;
+    height: 2px;
+    width: 100%;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: all 0.2s;
+}
+
+.nav-link:hover::after {
+    opacity: 2;
+}
+
+:root {
+    --box-shadow: 0 8px 22px rgba(0, 0, 0, 0.1);
+}
+
+.card-effect {
+    box-shadow: var(--box-shadow);
+    background-color: #fff;
+    padding: 25px;
+    transition: all 0.35s ease;
+}
+
+.card-effect:hover {
+    box-shadow: none;
+    transform: translateY(5px);
+}
+
+.iconbox {
+    width: 54px;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blue;
+    color: #fff;
+    font-size: 32px;
+    border-radius: 100px;
+}
+
+.btnx {
+    height: 150px;
+    width: 150px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 25%;
+    cursor: pointer;
+    border: none;
+}
+
+.clearLocalStorage {
+    height: 150px;
+    width: 150px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 25%;
+    cursor: pointer;
+    border: none;
+}
+
+.colors{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#demo{
+    padding: 25px;
+}
